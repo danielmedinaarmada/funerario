@@ -38,7 +38,7 @@ class Juego {
         pregunta: "Cual de las siguientes opciones NO es una cobertura de la póliza de Tranquilidad Plus",
         img: "img/validar.png",
         respuestas: [
-          {opcion: 0, texto: 'Hospitalización', valor: , img: "" },
+          {opcion: 0, texto: 'Hospitalización', valor: false, img: "" },
           {opcion: 1, texto: 'Muerte', valor: true, img: "" },
           {opcion: 2, texto: 'Maternidad', valor: false, img: "" },
           {opcion: 3, texto: 'Invalidez total y permanente', valor: false, img: "" },
@@ -508,8 +508,6 @@ class Juego {
       //respuesta.removeEventListener('click', this.respuesta)
     }*/
   }
-
-
 
 }
 
