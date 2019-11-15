@@ -91,8 +91,7 @@ class Juego {
           {opcion: 6, texto: 'Mi secretaria', valor: false, img: "" },
           {opcion: 7, texto: 'Mis cuñado', valor: false, img: "" },
           {opcion: 8, texto: 'Mi Vecino ', valor: false, img: "" },
-          {opcion: 9, texto: 'Mis Hermanos', valor: false, img: "" },
-
+          {opcion: 9, texto: 'Mis Hermanos', valor: false, img: "" }
         ]
       },{
         pregunta: "Que examenes necesita el asegurado para la póliza de Tranquilidad Plus de Mercantil Seguros",
