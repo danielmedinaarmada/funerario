@@ -35,14 +35,14 @@ class Juego {
           {opcion: 4, texto: 'Invalidez total o permanente', valor: false, img: "" }
         ]
       },{
-        pregunta: "Cual de las siguientes opciones NO es una cobertura de la póliza de Tranquilidad Plus",
+        pregunta: "Cual de las siguientes opciones es una cobertura de la póliza de Tranquilidad Plus",
         img: "img/validar.png",
         respuestas: [
           {opcion: 0, texto: 'Hospitalización', valor: false, img: "" },
           {opcion: 1, texto: 'Muerte', valor: true, img: "" },
           {opcion: 2, texto: 'Maternidad', valor: false, img: "" },
           {opcion: 3, texto: 'Invalidez total y permanente', valor: false, img: "" },
-          {opcion: 4, texto: 'Cirugía', valor: true, img: "" },
+          {opcion: 4, texto: 'Cirugía', valor: false, img: "" },
           {opcion: 5, texto: 'Gastos Médicos', valor: false, img: "" },
           {opcion: 6, texto: 'Cancer', valor: false, img: "" }
         ]
@@ -69,11 +69,11 @@ class Juego {
           {opcion: 6, texto: 'Cédula del Buen Vivir', valor: false, img: "" }
         ]
       },{
-        pregunta: "Cual de los siguientes eventos es excluido de la póliza de Tranquilidad Plus de Mercantil Seguros",
+        pregunta: "Cual de los siguientes eventos es incluido de la póliza de Tranquilidad Plus de Mercantil Seguros",
         img: "img/validar.png",
         respuestas: [
           {opcion: 0, texto: 'Me cai bajando las escaleras', valor: false, img: "" },
-          {opcion: 1, texto: 'La persona murio por un ataque al corazon', valor: true, img: "" },
+          {opcion: 1, texto: 'La persona murió por un ataque al corazón', valor: true, img: "" },
           {opcion: 2, texto: 'Me caí saliendo del baño', valor: false, img: "" },
           {opcion: 3, texto: 'Me queme el brazo cocinando', valor: false, img: "" },
           {opcion: 4, texto: 'Me caí entrando al automercado', valor: false, img: "" }
@@ -84,13 +84,13 @@ class Juego {
         respuestas: [
           {opcion: 0, texto: 'El Tio ', valor: false, img: "" },
           {opcion: 1, texto: 'La Tia', valor: false, img: "" },
-          {opcion: 2, texto: 'Mis hijos.', valor: true, img: "" },
+          {opcion: 2, texto: 'Mis hijos', valor: true, img: "" },
           {opcion: 3, texto: 'Mi Amante', valor: false, img: "" },
           {opcion: 4, texto: 'Esposa', valor: true, img: "" },
-          {opcion: 5, texto: 'Mis padres.', valor: true, img: "" },
+          {opcion: 5, texto: 'Mis padres', valor: true, img: "" },
           {opcion: 6, texto: 'Mi secretaria', valor: false, img: "" },
           {opcion: 7, texto: 'Mis cuñado', valor: false, img: "" },
-          {opcion: 8, texto: 'Mi Vecino ', valor: false, img: "" },
+          {opcion: 8, texto: 'Mi Vecino', valor: false, img: "" },
           {opcion: 9, texto: 'Mis Hermanos', valor: false, img: "" }
         ]
       },{
@@ -117,7 +117,7 @@ class Juego {
         img: "img/validar.png",
         respuestas: [
           {opcion: 0, texto: 'Que no lo tenga', valor: false, img: "" },
-          {opcion: 1, texto: 'Que este activo, tenga saldo y sea el titular', valor: false, img: "" },
+          {opcion: 1, texto: 'Que este activo, tenga saldo y sea el titular', valor: true, img: "" },
           {opcion: 2, texto: 'Que no lo use', valor: false, img: "" },
           {opcion: 3, texto: 'Que este suspendido', valor: false, img: "" }
         ]
